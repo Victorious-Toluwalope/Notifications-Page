@@ -1,0 +1,78 @@
+body {
+      background-color: burlywood;
+      font-family: 'Plus Jakarta Sans';
+      font-size: 16px;
+}
+main {
+      background-color: white;
+      box-sizing: border-box;
+      border-radius: 10px;  
+      height: 55rem;
+      width: 50rem;
+      margin: 3rem auto;
+      padding: 2em 2em;
+}
+header {
+      display: flex;
+}
+h1 {
+      font-weight: 800;
+      color: hsl(224, 21%, 14%);
+}
+button {
+      margin-left: 1em;
+      margin-top: 1.5em;
+      height: 2em;
+      width: 2.5em;
+      background-color: hsl(224, 21%, 14%);
+      color: hsl(0, 0%, 100%);
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 5px;
+}
+header p {
+      margin-left: auto;
+      margin-top: 1.5em;
+
+}
+.messages {
+      display: flex;
+      padding: 0.4rem ;
+      margin: 0.5em;
+}
+.messages p{
+      line-height: 10px;
+}
+.messages img {
+      height: 3.5em;
+      width: 3.5em;
+      margin-right: 1.5em;
+}
+.new-message {
+      background-color: hsl(211, 68%, 94%);
+      border-radius: 10px;
+}
+.dot {
+      height: 5px;
+      width: 5px;
+      border-radius: 50%;
+      background-color: hsl(1, 90%, 64%);
+      color: hsl(1, 90%, 64%);
+}
+#profile {
+      margin-left: 15em;
+}
+.bold-name {
+      color: hsl(219, 12%, 42%);
+}
+.chess-name {
+      color: hsl(219, 85%, 26%);
+}
+#private-message {
+      margin-left: 6em;
+      padding: 1em 1em;
+      border: 1px solid hsl(211, 68%, 94%);
+}
+footer {
+      text-align: center;
+}
