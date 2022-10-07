@@ -7,7 +7,7 @@ main {
       background-color: white;
       box-sizing: border-box;
       border-radius: 10px;  
-      height: 55rem;
+      height: 58rem;
       width: 50rem;
       margin: 3rem auto;
       padding: 2em 2em;
@@ -35,12 +35,16 @@ header p {
       margin-top: 1.5em;
 
 }
+header p:hover {
+      cursor: pointer;
+      color: hsl(219, 85%, 26%);
+}
 .messages {
       display: flex;
       padding: 0.4rem ;
       margin: 0.5em;
 }
-.messages p{
+.messages p {
       line-height: 10px;
 }
 .messages img {
@@ -59,6 +63,16 @@ header p {
       background-color: hsl(1, 90%, 64%);
       color: hsl(1, 90%, 64%);
 }
+.dot-point {
+      display: flex;
+}
+strong:hover {
+      cursor: pointer;
+      color: hsl(219, 85%, 26%);
+}
+img:hover {
+      cursor: pointer;
+}
 #profile {
       margin-left: 15em;
 }
@@ -72,6 +86,10 @@ header p {
       margin-left: 6em;
       padding: 1em 1em;
       border: 1px solid hsl(211, 68%, 94%);
+}
+#private-message:hover {
+      cursor: pointer;
+      background-color: hsl(219, 14%, 63%);
 }
 footer {
       text-align: center;
