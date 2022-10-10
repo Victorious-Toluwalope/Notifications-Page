@@ -57,14 +57,9 @@ header p:hover {
       border-radius: 10px;
 }
 .dot {
-      height: 5px;
-      width: 5px;
-      border-radius: 50%;
-      background-color: hsl(1, 90%, 64%);
+      height: 1px;
+      width: 1px;
       color: hsl(1, 90%, 64%);
-}
-.dot-point {
-      display: flex;
 }
 strong:hover {
       cursor: pointer;
